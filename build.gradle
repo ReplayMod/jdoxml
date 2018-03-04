@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'org.cakelab.jdoxml'
+version = '0.0.1'
+archivesBaseName = 'jdoxml'
+
+sourceSets.main {
+    java.srcDirs = ['src']
+    resources.srcDirs = ['resources']
+}
